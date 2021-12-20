@@ -1,0 +1,16 @@
+NLP_Dataset/glove.6B.100d
+*.zip
+*.pt
+submission.txt
+vec.txt
+submission_300d.txt
+wtf.py
+xjbx.py
+xjbx2.py
+.idea
+__pycache__
+NLP_Dataset/MLHomework_Toxicity/train.csv
+NLP_Dataset/MLHomework_Toxicity/train_.csv
+NLP_Dataset/MLHomework_Toxicity/val_.csv
+NLP_Dataset/MLHomework_Toxicity/test.csv
+NLP_Dataset/MLHomework_Toxicity/train_extra.csv
