@@ -1,6 +1,6 @@
 ### 额外文件
 
-从这里下载http://d2l-data.s3-accelerate.amazonaws.com/glove.6B.100d.zip
+从这里下载https://d2l-data.s3-accelerate.amazonaws.com/glove.6B.100d.zip
 
 解压缩并放置在NLP_Dataset文件夹内。
 
