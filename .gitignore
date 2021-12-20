@@ -1,6 +1,6 @@
-NLP_Dataset/glove.6B.100d
 *.zip
 *.pt
+vec.txt
 submission.txt
 vec.txt
 submission_300d.txt

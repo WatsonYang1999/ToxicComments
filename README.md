@@ -1,9 +1,18 @@
+### 额外文件
+
+从这里下载http://d2l-data.s3-accelerate.amazonaws.com/glove.6B.100d.zip
+
+解压缩并放置在NLP_Dataset文件夹内。
+
 ### 文件说明
+
 train.py :训练模型
 model.py :实现了两个模型双向LSTM和TextRNN
+
 数据集设置：除了文本数据之外还需要预训练好的词嵌入模型参数，
 数据集目录在 NLP_Dataset中
-glove.6B.100d.zip是我们额外需要的词嵌入模型的预训练参数(需要解压缩到NLP)
+
+glove.6B.100d是我们额外需要的词嵌入模型的预训练参数。
 
 Homework文件夹里是作业的数据集
 原始的数据集我没上传，太大了。
