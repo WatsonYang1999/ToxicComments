@@ -8,7 +8,7 @@
 
 train.py :训练模型
 
-model.py :实现了两个模型双向LSTM和TextRNN
+model.py :实现了两个模型双向LSTM和TextCNN
 
 数据集设置：除了文本数据之外还需要预训练好的词嵌入模型参数，
 

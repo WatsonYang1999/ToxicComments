@@ -2,6 +2,13 @@ import torch
 import torch.nn as nn
 
 
+
+'''
+这里主要参考了动手学深度学习这本书的两个模型
+https://d2l.ai/chapter_natural-language-processing-applications/index.html
+原始模型是用来给文本情感分类的（0 1分类），但我们要输出的是一个连续的数值
+所以在网络的最后一层稍微做了修改并添加了一个Sigmoid函数使网络输出映射到0-1这个区间
+'''
 class BiRNN(nn.Module):
 
     def __init__(self, vocab_size, embed_size, num_hiddens, num_layers,
